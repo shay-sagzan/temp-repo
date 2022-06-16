@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./admin.js" defer></script>
+  </head>
+  <body>
+    <div class="admin-container">
+      <header>
+        <h1 class="admin-header">Admin Dashboard</h1>
+        <h2 class="add-new-header">Add New Laptop</h2>
+        <div class="add-new-laptop">
+          <div class="add-new-laptop-div">
+            <h4>Brand: <input type="text" placeholder="Fill Your Brand" /></h4>
+            <h4>Type: <input type="text" placeholder="Fill Your Type" /></h4>
+            <h4>Model: <input type="text" placeholder="Fill Your Model" /></h4>
+            <h4>Ram: <input type="text" placeholder="Fill Your Ram" /></h4>
+          </div>
+          <div class="add-new-laptop-div">
+            <h4>Memory: <input type="text" placeholder="Fill Your Memory" /></h4>
+            <h4>
+              Processor: <input type="text" placeholder="Fill Your Pocessor" />
+            </h4>
+            <h4>
+              Resolution: <input type="text" placeholder="Fill Your Resolution" />
+            </h4>
+            <h4>OS: <input type="text" placeholder="Fill Your OS" /></h4>
+          </div>
+          <button class="add-laptop">Add Laptop</button>
+        </div>
+      </header>
+      <main>
+        <div class="laptops"></div>
+      </main>
+    </div>
+  </body>
+</html>
